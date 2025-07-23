@@ -1,15 +1,15 @@
 body {
     font-family: roboto,sans-serif;
-    margin: 0;
+    margin:0;
 }
 .container {
- max-width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
 .container-hero {
     background-color: #1f2937;
-    padding: 10px;
+    padding: 10px 0;
 }
 .logo {
     color: #f9faf8;
@@ -69,4 +69,106 @@ header {
     height: auto;
     width: 500px;
     border: 2px white solid;
+}
+.features {
+    padding:100px;
+}
+.features-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.features-container h2 {
+    font-size: 36px;
+    color: #1f2937;
+    margin-bottom: 50px;
+}
+.random-information {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.random-information-box img {
+    width: 200px;
+    height: auto;
+    border: 2px black solid;
+    border-radius: 10px;
+}
+.random-information-box p {
+    text-align: center;
+    color: #535050;
+    font-size: 20px;
+}
+.random-information-box {
+    margin: 0;
+    padding: 0;
+}
+.random-information-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 250px;
+}
+.quote {
+    background-color: #e5e7eb;
+}
+.quote-bigger {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 100;
+}
+.quote-sign {
+    font-size: 30px;
+    text-align: end;
+    font-weight: 900;
+}
+.quote-container {
+    padding: 150px;
+}
+.cta-box {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px auto;
+    max-width: 900px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.cta-box button {
+    width: 100px;
+    height: 30px;
+    background-color: #3882f6;
+    border: 2px white solid;
+    border-radius: 10px;
+    color: #e5e7eb;
+}
+.cta-text p {
+    color: #e5e7eb;
+    margin: 0;
+}
+.main-text-cta {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.second-text-cta {
+    font-weight: 100;
+}
+footer {
+    background-color: #1f2937;
+    margin: 0;
+    max-height: 70px;
+}
+.container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-footer p {
+    color: #e5e7eb;
 }
